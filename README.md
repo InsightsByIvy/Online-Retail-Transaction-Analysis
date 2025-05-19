@@ -1,4 +1,4 @@
-![Alt text](Images/1.jpg)
+![Banner Image](Images/1.png)
 
 
 This project focuses on data exploration, cleaning, analysis, and visualisation. It analyses online retail transaction data to understand customer behaviour, identify popular products, and provide insights that help optimise pricing and marketing strategies.
