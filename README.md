@@ -15,17 +15,31 @@ The dataset contains information on customer transactions made through an online
 * Optimise pricing strategies (Spot opportunities for discounts or price increases)
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them)
+* List here your project hypothesis
 
 ## Project Plan
-Outline the high-level steps taken for the analysis.
-How was the data managed throughout the collection, processing, analysis and interpretation steps?
-Why did you choose the research methodologies you used?
-* 
+High-Level Steps Taken:
+* Data Collection (Downloaded the dataset from Kaggle as a .csv file and imported it into a Jupyter Notebook using Pandas)
+* Data Processing (ETL)
+* Data Analysis & Interpretation (Visualized sales trends by country, product category and transactions over time)
+
+Data Management:
+* Data was managed using Pandas DataFrames throughout the entire process.
+* Cleaning and transformation steps were kept in structured Jupyter cells for transparency and readability.
+* Any modifications were tested and visualized immediately to ensure correctness.
+
+Research Methodologies Used:
+* I used Exploratory Data Analysis (EDA) because this project was focused on uncovering patterns, trends, and insights in the data.
+* I chose data visualization techniques (bar plots, histograms, line charts, box plots) to help interpret the data in a meaningful and visual way.
 
 ## The rationale to map the business requirements to the Data Visualisations
 The goal of this project was to support business decisions by transforming raw transaction data into actionable insights. Each data visualisation was designed with a specific business question or requirement in mind to make the analysis relevant and valuable. Here’s how they were mapped:
-* Identify best-selling products: 
+ - Identify best-selling products: 
+   Bar chart showing top-selling products by total sales volume or revenue that helps marketing and inventory teams focus on popular items.
+ - Explore customer distribution by country:
+   Bar chart or pie chart showing total sales by country. Useful for targeting specific international markets or evaluating regional performance.
+ - Transactions over time:
+   Line chart showing ...
 
 ## Analysis techniques used
 List the data analysis methods used and explain limitations or alternative approaches.
