@@ -2,8 +2,6 @@
 
 This project focuses on data exploration, cleaning, analysis, and visualisation. It analyses online retail transaction data to understand and to provide insights intocustomer behaviour, identify popular products, and optimise pricing and marketing strategies.
  
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 
 ## Dataset Content
 The dataset contains information on customer transactions made through an online retail platform. It includes data on products purchased, quantities, transaction dates and times, prices, customer identifiers, and customer locations. 
@@ -15,20 +13,23 @@ The dataset contains information on customer transactions made through an online
 * Optimise pricing strategies (Spot opportunities for discounts or price increases).
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis
+1. ***Customers from different countries have different average spending habits***:
+* Group by Country, calculate:
+AverageTransactionValue = sum(Quantity × UnitPrice) / number of invoices
+* Visualize with a bar chart.
 
 ## Project Plan
-*High-Level Steps Taken*:
+***High-Level Steps Taken***:
 * Data Collection (Downloaded the dataset from Kaggle as a .csv file and imported it into a Jupyter Notebook using Pandas).
 * Data Processing (ETL).
 * Data Analysis & Interpretation (Visualized sales trends by country, product category and transactions over time).
 
-*Data Management*:
+***Data Management***:
 * Data was managed using Pandas DataFrames throughout the entire process.
 * Cleaning and transformation steps were kept in structured Jupyter cells for transparency and readability.
 * Any modifications were tested and visualized immediately to ensure correctness.
 
-*Research Methodologies Used*:
+***Research Methodologies Used***:
 * I used Exploratory Data Analysis (EDA) because this project was focused on uncovering patterns, trends, and insights in the data.
 * I chose data visualization techniques (bar plots, histograms, line charts, box plots) to help interpret the data in a meaningful and visual way.
 
@@ -42,19 +43,19 @@ The goal of this project was to support business decisions by transforming raw t
    Line chart showing ...
 
 ## Analysis techniques used
-*Descriptive Analysis*: 
+***Descriptive Analysis***: 
 * Techniques: Used pandas and numpy to calculate summary statistics (mean, median, count, etc.) to understand key trends in sales, quantity sold, and unit prices.
 * Limitation: Some insights were skewed due to extreme outliers and missing values. To mitigate this, data cleaning steps (like removing negative and unusually high values) were taken.
 
-*Data Cleaning & Preparation*:
+***Data Cleaning & Preparation***:
 * Techniques: Removed duplicates, handled missing values, dropped negative transactions, and created new features such as TotalTransactionValue.
 * Limitation: Lack of standardized date formatting and missing customer identifiers limited deeper segmentation. Alternative: focused on available fields like Country.
 
-*Exploratory Data Analysis (EDA)*:
+***Exploratory Data Analysis (EDA)***:
 * Techniques: Used matplotlib, seaborn, and plotly to visualize trends and patterns. 
   (Bar charts for top-selling products and top customer countries. Time-series plots for sales over time )
 
-*Outlier Detection*:
+***Outlier Detection***:
 * Used basic statistical thresholds to exclude unrealistic data points.
 * Alternative: More advanced methods like IQR or Z-score could be applied in future phases.
 
@@ -68,7 +69,7 @@ The dataset is used for this analysis does not cointain any private or sensitive
 * Plotly is used for interactive visualisation.
 
 ## Credits
-* The dataset was downloaded from Kaggle.
-* The template for this project was provided by Code Institue. URL: https://github.com/Code-Institute-Org/data-analytics-template/tree/main
+* The dataset was downloaded from [Kaggle](https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset).
+* For this project I have used the [Code Institute Data Analytics Template](https://github.com/Code-Institute-Org/data-analytics-template/tree/main)
 * I used Code Institute learning materials to review visualisation techniques.
-* Perplexity AI was used for data clarification and code review.
+* [Perplexity AI](https://www.perplexity.ai/) was used for data clarification and code review.
