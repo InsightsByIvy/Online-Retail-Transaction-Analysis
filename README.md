@@ -34,6 +34,11 @@ AverageTransactionValue = sum(Quantity × UnitPrice) / number of invoices
 * I used Exploratory Data Analysis (EDA) because this project was focused on uncovering patterns, trends, and insights in the data.
 * I chose the following data visualisation techniques (bar plots, line charts and box plots) to help interpret the data in a meaningful and visual way.
 
+## Interactive Dashboard
+
+Explore the analysis with interactive Tableau dashboard here:  
+[View the Online Retail Transaction Analysis Dashboard](https://public.tableau.com/app/profile/ivy.kepiro/viz/OnlineRetailTransactionAnalysis/Dashboard1)
+
 ## The rationale to map the business requirements to Data Visualisations
 The goal of this project was to support business decisions by transforming raw transaction data into actionable insights. Each data visualisation was designed with a specific business question or requirement in mind to make the analysis relevant and valuable. Here’s how they were mapped:
  - Identify best-selling products: 
@@ -74,3 +79,5 @@ The dataset is used for this analysis does not cointain any private or sensitive
 * For this project I have used the [Code Institute Project Template](https://github.com/Code-Institute-Org/data-analytics-template/tree/main).
 * I used Code Institute learning materials to review visualisation techniques.
 * [Perplexity AI](https://www.perplexity.ai/) was used for data clarification and code review.
+
+[Back to top](#online-retail-transaction-analysis)
